@@ -1,0 +1,25 @@
+{
+  "name": "shamtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules app.js"
+  },
+  "author": "Efi",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "ffmpeg": "^0.0.4",
+    "mongod": "^2.0.0",
+    "mongoose": "^6.0.4",
+    "multer": "^1.4.3",
+    "react-ssr": "^2.0.0-beta.10"
+  }
+}

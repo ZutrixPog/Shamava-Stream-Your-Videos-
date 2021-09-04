@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    background-color: #CED6D8;
+}
+
+.header {
+    width: 60%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.vid {
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 9px;
+    background: #CED6D8;
+    box-shadow: 
+        inset 0 0 15px rgba(55, 84, 170,0),
+        inset 0 0 20px rgba(255, 255, 255,0),
+        7px 7px 15px rgba(55, 84, 170,.15),
+        -7px -7px 20px rgba(255, 255, 255,1),
+        inset 0px 0px 4px rgba(255, 255, 255,.2);
+    transition: box-shadow 0.5s;
+}
+
+.vid:hover {
+    box-shadow: 
+        inset 7px 7px 15px rgba(55, 84, 170,.15),
+        inset -7px -7px 20px rgba(255, 255, 255,1),
+        0px 0px 4px rgba(255, 255, 255,.2);
+    transition: box-shadow 0.5s ease-in-out;
+} 
+
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #50d4b9;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.thumb {
+    width: 100%;
+    height: 250px;
+    border-radius: 9px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    color: #50d4b9;
+    font-weight: bold;
+}
